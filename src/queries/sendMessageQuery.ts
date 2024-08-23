@@ -70,7 +70,8 @@ export const sendMessageQuery = ({ chatflowid, apiHost = 'http://localhost:3000'
   sendRequest<any>({
     method: 'POST',
     // url: `${apiHost}/api/v1/prediction/${chatflowid}`,
-    url: `https://13n5jik04g.execute-api.us-east-2.amazonaws.com/prediction`,
+    // url: `https://13n5jik04g.execute-api.us-east-2.amazonaws.com/prediction`,
+    url: `https://flowise-api-apim.azure-api.net/prediction`,
     body,
   });
 
